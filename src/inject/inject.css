@@ -1,0 +1,66 @@
+/**
+ * YoTimer custom styles.
+ **/
+
+.yo-timer-watch {
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+  border: 1px solid #999;
+  font-size: 30px;
+  color: #444;
+  background: #ddd;
+  z-index: 999999;
+}
+.yo-timer-watch.yo-timer-running {
+  box-shadow: 0 0 20px #00B5FF;
+}
+
+.yo-timer-watch .timer-task {
+  background: #555;
+  color: #ddd;
+  text-align: center;
+  font-size: 12px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.yo-timer-watch time {
+  padding: 5px 10px;
+  display: inline-block;
+  background: #fff;
+}
+
+.yo-timer-watch .yo-timer-edit,
+.yo-timer-watch.editing .yo-timer-time {
+  display: none;
+}
+
+.yo-timer-watch.editing .yo-timer-edit {
+  display: inline-block;
+}
+
+.yo-timer-watch .icon {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+.yo-timer-watch .icon:hover {
+}
+
+.yo-timer-watch .icon:before {
+  line-height: 33px;
+}
+
+.yo-timer-watch .icon-play:before {
+  font-size: 90%;
+  margin: 5px 10px 0;
+}
+.yo-timer-watch.yo-timer-running .icon-play:before {
+  content: "\f04d";
+}
+
+.yo-timer-watch .icon-edit:before {
+  font-size: 70%;
+  margin: 6px 10px 0 13px;
+}

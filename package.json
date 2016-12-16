@@ -1,0 +1,10 @@
+{
+  "name": "taymer",
+  "version": "0.0.1",
+  "description": "Better timer for TeamWork",
+  "main": "src",
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "TAY",
+  "license": "ISC"
+}
